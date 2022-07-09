@@ -1,4 +1,5 @@
 ﻿//С клавиатуры вводится целое число. Вывести квадрат числа
+
 int a;
 int b;
 System.Console.WriteLine("Please insert a number");
