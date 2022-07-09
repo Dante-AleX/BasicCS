@@ -11,9 +11,9 @@ b=Convert.ToDouble(s);
 
 if (a>b)
 {
-    System.Console.WriteLine("First number is the biggest");
+    System.Console.WriteLine($"{a}");
 }
 else
 {
-    System.Console.WriteLine("Second number is the biggest");
+    System.Console.WriteLine($"{b}");
 }
