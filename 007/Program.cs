@@ -1,9 +1,7 @@
 ﻿//Выяснить является ли число чётным.
 
-double a;
 System.Console.WriteLine("Please insert a number");
-string? s=Console.ReadLine();
-a=Convert.ToDouble(s);
+double a=Convert.ToDouble(Console.ReadLine());
 
 if (a%2==0)
 {
