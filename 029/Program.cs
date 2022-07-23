@@ -8,4 +8,4 @@ while (a > 0)
     s = s + a % 10;
     a = a / 10;
 }
-Console.WriteLine(s);
+Console.WriteLine($"The sum of the digits is {s}");

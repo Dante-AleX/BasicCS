@@ -20,8 +20,8 @@ string DecToBin(int n)
 
 string DecToAny(int n,int @base)
 {
-    if (@base>10) 
-    {
+    if (@base>10) {
+        //System.Console.WriteLine("Основание должно быть не больше 10");
         throw new ArgumentOutOfRangeException("Основание должно быть не больше 10");        
     }
     if (n==0) return "0";
