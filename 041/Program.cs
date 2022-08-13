@@ -20,6 +20,13 @@ int[]array={10, 95, 35, 84, 51, 19, 15, 13, 42};
 int result;
 Print(array, "a");
 
+
+void Print(int[] array, string variableName)
+{
+    for (int i = 0; i < array.Length; i++)
+        System.Console.Write($"{variableName}[{i}]={array[i]} ");
+}
+
 int max = Max(
     Max(array[0], array[1], array[2]),
     Max(array[3], array[4], array[5]), 
@@ -29,12 +36,6 @@ int min = Min(
     Min(array[0], array[1], array[2]),
     Min(array[3], array[4], array[5]), 
     Min(array[6], array[7], array[8]));
-
-void Print(int[] array, string variableName)
-{
-    for (int i = 0; i < array.Length; i++)
-        System.Console.Write($"{variableName}[{i}]={array[i]} ");
-}
 
 System.Console.WriteLine();
 System.Console.WriteLine($"The maximal number in array is {max}");
