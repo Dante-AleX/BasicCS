@@ -1,12 +1,12 @@
 ﻿//Написать программу вычисления функции Аккермана.
 
-Console.WriteLine("Введите число N: ");
+Console.WriteLine("Insert number N: ");
 int number = Convert.ToInt16(Console.ReadLine());
 
-Console.WriteLine("Введите число M: ");
+Console.WriteLine("Insert number M: ");
 int number1 = Convert.ToInt16(Console.ReadLine());
 
-if (number < 0 || number1 < 0) Console.WriteLine("Введите положительные числа.");
+if (number < 0 || number1 < 0) Console.WriteLine("Please insert a positive number");
 
 int Akkerman(int m, int n)
 {
